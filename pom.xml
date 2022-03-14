@@ -99,7 +99,7 @@
                 <configuration>
                     <webResources>
                         <webResource>
-                            <directory>${basedir}/src/webapp</directory>
+                            <directory>${basedir}/src/main/webapp</directory>
                             <filtering>true</filtering>
                             <include>**/*.html</include>
                         </webResource>
