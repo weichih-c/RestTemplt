@@ -11,6 +11,11 @@ refer to: [mssql docker image on dockerhub](https://hub.docker.com/_/microsoft-m
 docker build -f ./docker/Dockerfile --tag=resttemplt .
 ```
 
+## run the docker image
+```
+docker run --name=rest-templt -d -p 8080:8080 -p 9990:9990 resttemplt
+```
+
 ## The offered REST APIs in the folder:
 `./src/main/java/com/wei/example/rest`
 

@@ -8,4 +8,4 @@ RUN mvn -f /usr/src/app/pom.xml clean package
 ## stage - copy war to wildfly
 FROM quay.io/wildfly/wildfly:latest as runner
 COPY --from=builder /usr/src/app/target/rest-templt.war /opt/jboss/wildfly/standalone/deployment/rest-templt.war  
-CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0", "-bmanagement", "0.0.0.0"]
+CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0"]
