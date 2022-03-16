@@ -13,4 +13,5 @@ public class SpringBootConstants {
     public static final String STOCK_ADD_HIST_DAO = "StockAddHistDao";
 
     // Services
+    public static final String DATETIME_SERVICE = "DateTimeService";
 }
