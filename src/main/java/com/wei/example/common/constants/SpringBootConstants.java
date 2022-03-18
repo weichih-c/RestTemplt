@@ -11,7 +11,9 @@ public class SpringBootConstants {
     public static final String ORDER_CHANGE_HIST_DAO = "OrderChangeHistDao";
     public static final String CUSTOMER_DAO = "CustomerDao";
     public static final String STOCK_ADD_HIST_DAO = "StockAddHistDao";
+    public static final String GOV_DAO = "GovDao";
 
     // Services
     public static final String DATETIME_SERVICE = "DateTimeService";
+    public static final String GOV_SERVICE = "GovService";
 }

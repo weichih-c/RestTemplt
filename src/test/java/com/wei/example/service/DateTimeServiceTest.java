@@ -20,7 +20,7 @@ public class DateTimeServiceTest extends AbstractServiceTest{
     }
 
     @Test
-    public void testGetTime()
+    public void testGetTime() throws Exception
     {
         String timeStr = service.getTime();
         logger.debug("result:{}", timeStr);
@@ -28,7 +28,7 @@ public class DateTimeServiceTest extends AbstractServiceTest{
     }
 
     @Test
-    public void testGetDateTime()
+    public void testGetDateTime() throws Exception
     {
         String timeStr = service.getDateTime();
         logger.debug("result:{}", timeStr);
@@ -36,7 +36,7 @@ public class DateTimeServiceTest extends AbstractServiceTest{
     }
 
     @Test
-    public void testGetDateTimeByFormat()
+    public void testGetDateTimeByFormat() throws Exception
     {
         String myFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ";
         String timeStr = service.getDateTimeByFormat(myFormat);
