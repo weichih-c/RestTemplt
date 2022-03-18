@@ -1,12 +1,14 @@
 # restTemplt
 A spring boot RESTful API template for java & REST API beginner
 
+
 ## Prerequist
 - MS-SQL docker image installed and run on local for testing
 refer to: [mssql docker image on dockerhub](https://hub.docker.com/_/microsoft-mssql-server)
 
 
 ## build image from source
+The base image is using official wildfly and also do maven build in the Dockerfile
 ```
 docker build -f ./docker/Dockerfile --tag=resttemplt .
 ```
